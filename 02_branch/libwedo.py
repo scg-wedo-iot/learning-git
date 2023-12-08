@@ -19,8 +19,11 @@ class MathOperate:
         return result
     
     def divde(self):
-        # boat
-        return None
+        if (self.b != 0):
+            result = self.a / self.b
+        else:
+            result = "Can not use dinominator value = 0"
+        return result
 
     def rms(self):
         # pond
@@ -32,8 +35,9 @@ class MathOperate:
 
     def max(self):
         # Park
-        return None
-
+        data = [self.a,self.b]
+        return max(data)
+    
     def min(self):
         if self.a <= self.b:
             result = self.a
