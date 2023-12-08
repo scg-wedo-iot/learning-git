@@ -1,3 +1,1 @@
 name : Thanapoom Pumee
-
-age : 26
