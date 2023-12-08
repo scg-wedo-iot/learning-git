@@ -11,21 +11,27 @@ class MathOperate:
 
     def subtract(self):
         # O
-        return None
-
+        result = self.a - self.b
+        return result
+    
     def multipy(self):
         # Book
-        return None
-
+        result = self.a * self.b
+        return result
+    
     def divde(self):
-        # boat
-        return None
+        if (self.b != 0):
+            result = self.a / self.b
+        else:
+            result = "Can not divide by zero"
+        return result
 
     def rms(self):
         # pond
-        return None
-
-    def mean(self) -> float:
+        result = math.sqrt((pow(self.a,2)+pow(self.b,2))/2)
+        return result
+    
+    def mean(self):
         # gear
         return self.sum()/2
 
@@ -35,14 +41,10 @@ class MathOperate:
         return max(data)
     
     def min(self):
-        if self.a <= self.b:
-            result = self.a
-        
-        else:
-            result = self.b
-
-        return result
-
+        if self.a>self.b :
+            return self.b
+        return self.a
+    
     def is_equal(self):
         if (self.a) == (self.b) :
             return "Yes"
