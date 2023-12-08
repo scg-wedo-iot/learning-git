@@ -6,4 +6,4 @@ index, nick_name, age
 5, Boat, 27
 6, Pond, 49
 7, Bobby, 28
-7, Kuang, 38
+8, Kuang, 38
