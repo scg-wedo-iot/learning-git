@@ -15,7 +15,8 @@ class MathOperate:
     
     def multipy(self):
         # Book
-        return None
+        result = self.a * self.b
+        return result
     
     def divde(self):
         # boat
