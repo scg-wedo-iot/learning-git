@@ -18,8 +18,11 @@ class MathOperate:
         return None
 
     def divde(self):
-        # boat
-        return None
+        if (self.b != 0):
+            result = self.a / self.b
+        else:
+            result = "Can not use dinominator value = 0"
+        return result
 
     def rms(self):
         # pond
