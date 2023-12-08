@@ -1,3 +1,5 @@
 index, nick_name, age
 1, BenzPan, 30
 2, BenzPan2, 30
+3, Settawat, 27
+4, Gear, 32
