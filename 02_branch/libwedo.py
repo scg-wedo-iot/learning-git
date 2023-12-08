@@ -10,27 +10,35 @@ class MathOperate:
         return result
     
     def subtract(self):
+        # O
         return None
     
     def multipy(self):
+        # Book
         return None
     
     def divde(self):
+        # boat
         return None
 
     def rms(self):
+        # pond
         return None
     
     def mean(self):
+        # gear
         return None
     
     def max(self):
+        # Park
         return None
     
     def min(self):
+        
         return None
     
     def is_equal(self):
+        # Kuang
         return None
     
     def root_sum_sq(self):
