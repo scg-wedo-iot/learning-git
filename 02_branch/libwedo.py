@@ -11,7 +11,8 @@ class MathOperate:
     
     def subtract(self):
         # O
-        return None
+        result = self.a - self.b
+        return result
     
     def multipy(self):
         # Book
@@ -34,8 +35,9 @@ class MathOperate:
         return None
     
     def min(self):
-        
-        return None
+        if self.a>self.b :
+            return self.b
+        return self.a
     
     def is_equal(self):
         # Kuang
