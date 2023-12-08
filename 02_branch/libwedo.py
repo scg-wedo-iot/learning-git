@@ -31,8 +31,9 @@ class MathOperate:
 
     def max(self):
         # Park
-        return None
-
+        data = [self.a,self.b]
+        return max(data)
+    
     def min(self):
         if self.a <= self.b:
             result = self.a
