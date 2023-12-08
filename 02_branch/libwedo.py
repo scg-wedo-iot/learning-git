@@ -38,8 +38,10 @@ class MathOperate:
         return None
     
     def is_equal(self):
-        # Kuang
-        return None
+        if (self.a) == (self.b) :
+            return "Yes"
+        else:
+            return "No"
     
     def root_sum_sq(self):
         return None
