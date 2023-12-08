@@ -35,8 +35,13 @@ class MathOperate:
         return None
 
     def min(self):
+        if self.a <= self.b:
+            result = self.a
+        
+        else:
+            result = self.b
 
-        return None
+        return result
 
     def is_equal(self):
         # Kuang
