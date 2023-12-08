@@ -1,6 +1,6 @@
+import math
 
 class MathOperate:
-
     def __init__(self, a, b):
         self.a = a
         self.b = b
@@ -10,7 +10,6 @@ class MathOperate:
         return result
     
     def subtract(self):
-        result = None
         return None
     
     def multipy(self):
@@ -18,14 +17,11 @@ class MathOperate:
     
     def divde(self):
         return None
-    
+
     def rms(self):
         return None
     
     def mean(self):
-        return None
-    
-    def std(self):
         return None
     
     def max(self):
@@ -34,6 +30,12 @@ class MathOperate:
     def min(self):
         return None
     
+    def is_equal(self):
+        return None
+    
+    def root_sum_sq(self):
+        return None
+
     def show_result(self):
         print(f"a: {self.a}, b: {self.b}")
         print(f"sum: {self.sum()}")
@@ -42,6 +44,8 @@ class MathOperate:
         print(f"divide: {self.divde()}")
         print(f"rms: {self.rms()}")
         print(f"mean: {self.mean()}")
-        print(f"standard derivative: {self.std()}")
         print(f"max: {self.max()}")
         print(f"min: {self.min()}")
+        print(f"is_equal: {self.is_equal()}")
+        print(f"root_sum_sq: {self.root_sum_sq()}")
+            

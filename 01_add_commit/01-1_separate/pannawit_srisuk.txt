@@ -1,1 +1,3 @@
 name: Pannawit Srisuk
+
+age: 30
