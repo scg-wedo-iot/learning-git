@@ -41,10 +41,9 @@ class MathOperate:
         return max(data)
     
     def min(self):
-        if self.a>self.b :
-            return self.b
-        return self.a
-    
+
+        return min(self.a,self.b)
+
     def is_equal(self):
         if (self.a) == (self.b) :
             return "Yes"
