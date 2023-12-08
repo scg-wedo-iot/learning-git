@@ -4,4 +4,5 @@ index, nick_name, age
 3, Settawat, 27
 4, Gear, 32
 5, Boat, 27
-6, Bobby, 28
+6, Pond, 49
+7, Bobby, 28
