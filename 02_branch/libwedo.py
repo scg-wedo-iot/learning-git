@@ -23,7 +23,8 @@ class MathOperate:
 
     def rms(self):
         # pond
-        return None
+        result = math.sqrt((pow(self.a,2)+pow(self.b,2))/2)
+        return result
     
     def mean(self):
         # gear
