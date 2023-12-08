@@ -21,7 +21,7 @@ class MathOperate:
         if (self.b != 0):
             result = self.a / self.b
         else:
-            result = "Can not use dinominator value = 0"
+            result = "Can not divide by zero"
         return result
 
     def rms(self):
