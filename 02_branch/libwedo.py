@@ -35,7 +35,7 @@ class MathOperate:
 
     def min(self):
 
-        return None
+        return min(self.a,self.b)
 
     def is_equal(self):
         # Kuang
