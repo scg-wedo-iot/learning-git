@@ -3,4 +3,5 @@ index, nick_name, age
 2, BenzPan2, 30
 3, Settawat, 27
 4, Gear, 32
-5, Pond, 26
+5, Boat, 27
+6, Pond, 26
