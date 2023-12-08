@@ -11,14 +11,9 @@ class MathOperate:
 
     def subtract(self):
         # O
-<<<<<<< HEAD
-        return None
-
-=======
         result = self.a - self.b
         return result
     
->>>>>>> feat-sub-min
     def multipy(self):
         # Book
         result = self.a * self.b
@@ -46,21 +41,10 @@ class MathOperate:
         return max(data)
     
     def min(self):
-<<<<<<< HEAD
-        if self.a <= self.b:
-            result = self.a
-        
-        else:
-            result = self.b
-
-        return result
-
-=======
         if self.a>self.b :
             return self.b
         return self.a
     
->>>>>>> feat-sub-min
     def is_equal(self):
         # Kuang
         return None
