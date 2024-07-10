@@ -10,31 +10,48 @@ class MathOperate:
         return result
 
     def subtract(self):
-        pass
+        # O
+        result = self.a - self.b
+        return result
     
     def multipy(self):
-        pass
+        # Book
+        result = self.a * self.b
+        return result
     
     def divde(self):
-        pass
+        if (self.b != 0):
+            result = self.a / self.b
+        else:
+            result = "Can not divide by zero"
+        return result
 
     def rms(self):
-        pass
+        # pond
+        result = math.sqrt((pow(self.a,2)+pow(self.b,2))/2)
+        return result
     
     def mean(self):
-        pass
+        # gear
+        return self.sum()/2
 
     def max(self):
-        pass
+        # Park
+        data = [self.a,self.b]
+        return max(data)
     
     def min(self):
-        pass
+
+        return min(self.a,self.b)
 
     def is_equal(self):
-        pass
+        if (self.a) == (self.b) :
+            return "Yes"
+        else:
+            return "No"
     
     def root_sum_sq(self):
-        pass
+        return None
 
     def show_result(self):
         print(f"a: {self.a}, b: {self.b}")
