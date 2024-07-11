@@ -15,7 +15,8 @@ class MathOperate:
     
     def multipy(self):
 	# Frame 
-        pass
+        result = self.a * self.b
+        return result
     
     def divde(self):
 	# Nick
@@ -23,7 +24,8 @@ class MathOperate:
 
     def rms(self):
 	# Frame
-        pass
+        result = math.sqrt((math.pow(self.a, 2) + math.pow(self.b, 2))/2)
+        return result
     
     def mean(self):
         pass
