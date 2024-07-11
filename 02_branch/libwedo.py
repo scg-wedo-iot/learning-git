@@ -10,15 +10,19 @@ class MathOperate:
         return result
 
     def subtract(self):
+	# Chong	
         pass
     
     def multipy(self):
+	# Frame 
         pass
     
     def divde(self):
+	# Nick
         pass
 
     def rms(self):
+	# Frame
         pass
     
     def mean(self):
