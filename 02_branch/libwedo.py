@@ -10,11 +10,11 @@ class MathOperate:
         return result
 
     def subtract(self):
+	#Shung
         result = self.a - self.b
         return result
     
     def multipy(self):
-        # Frame
         result = self.a * self.b
         return result
     
@@ -24,7 +24,6 @@ class MathOperate:
         pass
 
     def rms(self):
-        # Frame
         result = math.sqrt((math.pow(self.a, 2) + math.pow(self.b, 2))/2)
         return result
     
