@@ -19,7 +19,6 @@ class MathOperate:
         return result
     
     def divide(self):
-        # Nick
         result = self.a / self.b
         return result
         pass
