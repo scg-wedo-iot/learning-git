@@ -1,1 +1,3 @@
 name: Thitipong Muangsri
+age: 37
+nickname: Nick
