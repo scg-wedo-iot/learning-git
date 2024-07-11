@@ -10,8 +10,8 @@ class MathOperate:
         return result
 
     def subtract(self):
-	# Chong	
-        pass
+	result = self.a - self.b
+        return result
     
     def multipy(self):
 	# Frame 
