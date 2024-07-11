@@ -1,1 +1,5 @@
-name: Pannawit Srisuk
+name: Pannawit Srisuk 
+
+age: 30
+
+Nickname: Benz
