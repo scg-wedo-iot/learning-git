@@ -10,6 +10,7 @@ class MathOperate:
         return result
 
     def subtract(self):
+	#Shung
         result = self.a - self.b
         return result
     
