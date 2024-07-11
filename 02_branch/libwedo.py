@@ -19,6 +19,8 @@ class MathOperate:
     
     def divde(self):
 	# Nick
+        result = self.a / self.b
+        return result
         pass
 
     def rms(self):
