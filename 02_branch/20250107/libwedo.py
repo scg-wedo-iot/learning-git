@@ -37,7 +37,7 @@ class MathOperate:
         pass
 
     def is_equal(self):
-        pass
+        return (self.a==self.b)
     
     def root_sum_sq(self):
         pass
