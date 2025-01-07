@@ -2,3 +2,4 @@ name: Rada Sanorksarsit
 age: 21
 hobby: guitar, netflix
 food: dumplings
+place: home
