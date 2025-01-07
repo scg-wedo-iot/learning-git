@@ -28,7 +28,8 @@ class MathOperate:
         return result
     
     def mean(self):
-        pass
+        result = (self.a+self.b)/2
+        return result
 
     def max(self):
         pass
